@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Host</title>
+</head>
+<body>
+<my-host>
+<span slot="title">Hola desde un componente 1</span>
+<span slot="parrafo">Soy texto ejemplo</span>
+</my-host>
+<my-host class="blue">
+<span slot="title">Hola desde un componente 2</span>
+<span slot="parrafo">Soy texto ejemplo</span>
+</my-host>
+<my-host yellow>
+<span slot="title">Hola desde un componente 3</span>
+<span slot="parrafo">Soy texto ejemplo</span>
+</my-host>
+<article class="card">
+<my-host yellow>
+<span slot="title">Hola desde un componente 3</span>
+<span slot="parrafo">Soy texto ejemplo</span>
+</my-host>
+</article>
+<script src="./myHost.js"></script>
+</body>
+</html>
